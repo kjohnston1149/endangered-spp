@@ -17,59 +17,84 @@ body {
   height: auto;
 }
 
-
-
 .frog {
   position: absolute;
   left:70%;
   top:20%;
-
-
+  z-index: 1;
 }
 
 .frog img {
   height: auto;
-  width: 15%;
-  border-radius: 50%
-
-
-}
-
-.animal2 {
-  position: absolute;
-  left: 300px;
-  top: 200px;
-
-  width: 200px;
-  height: 200px;
-  background-color: white;
-  color: red;
-  align-content: center;
-  align-self: center;
-  align-items: center;
+  width: 18%;
+  border-radius: 50%;
 
 }
-.pic2 {
-  width: 100px;
-  height: 100px;
-  background-color: pink;
-  color: blue;
+p {
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  padding: 8px;
+  font-family: fantasy;
+  font-size: 1em;
+  display: inline-block;
+  margin: 6.9%;
+  width: 70%;
+  border: 2px solid white;
+  display: none;
 }
 
-// div.container {
-//   width: 3000px;
-//   height: 3000px;
+// .frog:hover > p {
 //   display: block;
-//   position: relative;
 // }
-// div.container::after {
+
+div div:hover > p {
+  display: block;
+}
+
+.jaguar {
+  position: absolute;
+  left: 80%;
+  top: 40%
+}
+.jaguar img {
+  height: auto;
+  width: 25%;
+  border-radius: 50%;
+  z-index: 0;
+}
+// .jaguar:hover:after {
+//   z-index: 1;
 //   content: "";
-//   background-image: url('/images/world_topography_bathymetry_borders-pacific-giclee_lg.png');
-//   opacity: 0.75;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   position: absolute;
-//   z-index: -1;
+//   color: white;
+//   background-color: black;
+//   font-family: fantasy;
+//   font-size: 1em;
+//   display: inline-block;
+//   margin: 6.9%;
+//   width: 70%;
+//   border: 2px solid white;
+// }
+
+.dugong {
+  position: absolute;
+  left: 18%;
+  top: 32%
+}
+.dugong img {
+  height: auto;
+  width: 20%;
+  border-radius: 50%;
+  z-index: 0;
+}
+// .dugong:hover:after {
+//   z-index: 1;
+//   content: "";
+//   color: white;
+//   background-color: black;
+//   font-family: fantasy;
+//   font-size: 1em;
+//   display: inline-block;
+//   margin: 6.9%;
+//   width: 70%;
+//   border: 2px solid white;
 // }
