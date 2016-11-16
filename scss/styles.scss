@@ -9,6 +9,45 @@ body {
   background-color: royalblue;
 }
 
+p {
+  color: white;
+  background-color: rgba(60,0,0,0.7);
+  padding: 8px;
+  font-family: fantasy;
+  font-size: 1em;
+  display: inline-block;
+  margin: 6.9%;
+  width: 70%;
+  border: 2px solid white;
+  display: none;
+}
+
+div div {
+  display: block;
+  padding-right: 0px;
+}
+
+// .frog:hover > p {
+//   display: block;
+// }
+
+div div img:hover ~ p {
+  display: block;
+  text-decoration: none;
+
+//   text-shadow: 2px 2px 4px lime,
+//   -2px -2px 4px lime,
+//   -2px 2px 4px lime,
+// 2px -2px 4px lime;
+}
+
+div div img:hover {
+      border: 12px groove orange;
+}
+
+
+
+
 .globe {
   position: relative;
 }
@@ -23,44 +62,15 @@ body {
   left:70%;
   top:20%;
   z-index: 1;
+  margin-right: 0;
+  margin-left: 0;
 }
-
 .frog img {
   height: auto;
   width: 18%;
   border-radius: 50%;
-
-}
-p {
-  color: white;
-  background-color: rgba(60,0,0,0.7);
-  padding: 8px;
-  font-family: fantasy;
-  font-size: 1em;
-  display: inline-block;
-  margin: 6.9%;
-  width: 70%;
-  border: 2px solid white;
-  display: none;
 }
 
-// .frog:hover > p {
-//   display: block;
-// }
-
-div div:hover > p {
-  display: block;
-  text-decoration: none;
-  text-shadow: 2px 2px 4px red,
-  -2px -2px 4px red,
-  -2px 2px 4px red,
-2px -2px 4px red;
-}
-
-div div:hover > img {
-  border: 12px groove orange;
-
-}
 
 .jaguar {
   position: absolute;
